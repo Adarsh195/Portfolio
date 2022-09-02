@@ -1,0 +1,123 @@
+body,html{
+    height:100%;
+    margin:0;
+    width: 100%;
+   
+}
+#navbar{
+    width:cover;
+}
+/* #img-1{
+    width:100%;
+    height: 100%;
+} */
+
+
+/* Photo */
+
+
+#welcome-section{
+    background-image: url('https://github.com/Adarsh195/Img-for-sites/blob/main/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg?raw=true');
+    /* background-size:cover; */
+    height:100%;
+    position: relative;
+    /* margin-top: 4%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    /* min-width: 450px; */
+    position: relative;
+    top:40%;
+    text-align: center;
+}
+#main{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: 70%;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 80px;
+    padding:0 30px;
+    /* margin: 0 25%; */
+    
+}
+span{
+    font-size:40px;
+}
+
+/*               ------------------- */
+
+#projects{
+    /* margin-top:900px; */
+    text-align: center;
+    padding:0 5%;
+    margin:10% 0;
+    
+}
+
+/*  -------------- */
+.i{
+    height:20rem;
+    /* width: 25rem; */
+}
+
+.new{
+    margin:5% auto 0;
+}
+h2{
+    /* padding:50px;   */
+    margin: 0;
+    font-family: montserrat;
+    font-weight:900;
+    font-size: 2.5rem;
+}
+hr{
+    border:1px solid;
+    /* border-h: 50%; */
+    width: 50%;
+    margin: auto;
+}
+.bat{
+    border-radius: 0;
+}
+/* ---------- */
+#footer{
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    padding: 20% 10% 3%;
+    background-size:cover ;
+    height: 100%;
+}
+#footer h2{
+    font-size: 3.5rem;
+}
+.last{
+    
+    border: none;
+    background-color:rgb(255, 174, 0); 
+    text-shadow: 1px 1px 1px #424242;
+}
+.last:hover{
+    
+    border: none;
+    background-color:rgb(255, 174, 0); 
+    text-shadow: 2px 2px 1px #616161;
+}
+.f-img{
+   font-size: 1.6rem;
+}
+@media (max-width:600px) {
+    .f-img{
+    font-size: 1rem;}
+    
+}
+#mp{
+    margin-bottom:40px;
+}
+#ri{
+    position: relative;
+   margin-bottom:19%;
+   
+}
